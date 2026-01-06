@@ -1,5 +1,4 @@
 <h1>Neural network with numPy</h1>
-<hr>
 Red neuronal sencilla hecha con numPy para calcular XOR
 
 <hr>
