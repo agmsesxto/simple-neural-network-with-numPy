@@ -46,7 +46,7 @@ W3 = np.random.randn(10, 1)
 lr = 0.1
 epochs = 100000
 
-while i < epochs:
+while i <= epochs:
     # ---- Forward pass ----
     z1 = X @ W1
     a1 = sigmoid(z1)
