@@ -37,7 +37,7 @@ X = np.array([
     [1, 1]
 ])
 
-y = np.array([[0], [1], [1], [0]])
+y = np.array([[0], [0], [0], [1]])
 
 # ---- Definir red ----
 np.random.seed(42)
