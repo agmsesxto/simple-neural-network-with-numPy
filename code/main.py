@@ -1,5 +1,10 @@
 import numpy as np
 
+np.set_printoptions(
+    threshold=np.inf,
+    suppress=True,
+)
+
 # ---- Definir red y cargar pesos ----
 W1 = np.load("./weights/W1.npy")
 W2 = np.load("./weights/W2.npy")
