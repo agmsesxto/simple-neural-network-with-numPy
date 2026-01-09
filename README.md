@@ -1,5 +1,5 @@
 # Neural network with numPy
-Red neuronal sencilla hecha con numPy para calcular XOR
+Red neuronal sencilla hecha con numPy para calcular operaciones lógicas.
 
 <hr>
 
