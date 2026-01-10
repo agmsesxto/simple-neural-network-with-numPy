@@ -86,4 +86,4 @@ print(calculate(X))
 input()
 
 # ---- Guardar modelo entrenado ----
-np.save("pesos_red.npy", { "W1": W1, "W2": W2, "W3": W3 })
+np.save("model.npy", { "W1": W1, "W2": W2, "W3": W3 })
