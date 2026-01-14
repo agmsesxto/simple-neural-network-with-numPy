@@ -6,9 +6,11 @@ np.set_printoptions(
 )
 
 # ---- Definir red y cargar pesos ----
-W1 = np.load("./weights/W1.npy")
-W2 = np.load("./weights/W2.npy")
-W3 = np.load("./weights/W3.npy")
+model = np.load("model.npy", allow_pickle=True).item()
+W1 = model["W1"]
+W2 = model["W2"]
+W3 = model["W3"]
+
 
 # ---- Funciones de acivación ----
 def sigmoid(x):

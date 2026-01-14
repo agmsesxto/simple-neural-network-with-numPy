@@ -85,16 +85,5 @@ i = 1
 print(calculate(X))
 input()
 
-# ---- Guardar pesos de la red ----
-with open("weights/pesos_W1.txt", "w") as f:
-    f.write(str(W1))
-
-with open("weights/pesos_W2.txt", "w") as f:
-    f.write(str(W2))
-
-with open("weights/pesos_W3.txt", "w") as f:
-    f.write(str(W3))
-
-np.save("weights/W1.npy", W1)
-np.save("weights/W2.npy", W2)
-np.save("weights/W3.npy", W3)
+# ---- Guardar modelo entrenado ----
+np.save("model.npy", { "W1": W1, "W2": W2, "W3": W3 })
